@@ -13,7 +13,7 @@ export class ClientesFormComponent implements OnInit {
 
   cliente: Cliente;
   success: boolean = false;
-  errors: String[];
+  errors: String[]; 
   id: number;
 
   

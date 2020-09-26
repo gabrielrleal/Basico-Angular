@@ -27,7 +27,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label>Data Cadastro:</label>
-                    <input type="text" class="form-control" [ngModel]="cliente.dataCadastro" name="dataCadastro"
+                    <input type="date" class="form-control" [ngModel]="cliente.dataCadastro" name="dataCadastro"
                         disabled = "true" />
                     
                 </div>
@@ -58,7 +58,7 @@
             <div class="col-md-3">
                 <div>
                     <button type="submit" class="btn btn-success" *ngIf=!cliente.id>
-                        <i class="fa fa-save"></i> Salvar
+                        <i class="fa fa-save"></i> Salvar cliente
                     </button>
 
                     <button type="submit" class="btn btn-primary" *ngIf=cliente.id>
